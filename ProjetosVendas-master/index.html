@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Vendas</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/index.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/index.js"></script>
+	<script>
+		alert("Olá , Seja Bem Vindo !!!");
+		
+	</script>
+</head>
+<body>
+	<div class="container-fluid">
+	<div class="row">
+			<nav class="navbar navbar-inverse">
+	  	<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header" id="top">
+			
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <!--<a class="" href="index.home"><img src="img/logo.png" alt="" class="icon"></a>-->
+	      <a class="navbar-brand " href="index.html">
+       		 <img alt="Brand" src="img/logo.png" id="icon1">
+       		 <p class="home">Brother's Solutions</p>
+     	 </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav menu-center">
+	        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#conteudo">Serviços</a></li>
+	        <li><a href="#footer">Fale Conosco</a></li>
+	        <li><a href="#login">Login</a></li>
+	        <li><a href="cadastronew.html">Cadastrar</a></li>
+	      </ul>
+	      				
+	      
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+</nav>
+			</div>
+
+	<div class="row">
+		<div id="container">
+	  		<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item imgs">
+      <img src="img/venda.jpg" alt="..." class="imgs">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/troca.jpg" alt="..." class="imgs">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item active">
+      <img src="img/motos.jpg" alt="..." class="imgs">
+      <div class="carousel-caption">
+        
+      </div>
+       <!-- Controls -->
+  
+    </div><!--Carousel-inner-->
+    
+  </div><!--Carousel-->
+<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+  </a>
+   <a class="right carousel-control" href="#mycarousel" data-slide="next">
+    <i class="glyphicon glyphicon-chevron-right"></i>
+  </a>
+ 
+</div>
+		
+		</div>
+	<div class="container-fluid" id="meio">
+		<div class="row">
+			
+			<div class="col-md-offset-2 col-md-2">
+				<h1>Venda de Carros</h1>
+				<p> Venha Conhecer nossa empresa!Aqui você poderá adquirir seu Carro Novo , Semi-Novo com preços acessíveis,venha Conhecer Nosso Modelo de Negócio</p>
+			</div>
+			
+			<div class="col-md-offset-1  col-md-2">
+				<h1>Venda de Motos</h1>
+				<p> Aqui Você pode Adquirir sua moto !Na nossa moto , você pode financiar sua moto com parcelas que cabem no seu bolso , além de Haver outros tipos de negociações </p>
+			</div>
+					
+			<div class="col-md-offset-1 col-md-2">
+
+				<h1>Manutenção</h1>
+				<p>Cuidamos do Seu Veiculo!Temos também uma equipe especializada para manter sua  segurança e conforto faça um teste drive !</p>
+			</div>
+		</div>
+
+		</div>	
+	</div><!--Row-->
+	
+	</div><!--Container-->
+	<div class="container login" id="login">
+		<div class="row" >
+			<div>
+				<h1 class="white" >Faça Seu Login!</h1>
+				<p class="white">Se Você Já é cadastrado , faça seu login Já , e veja já as novidades</p>
+			</div>
+			<form action="cadastrando.php" class="form-horizontal">
+				<div class="col-md-4 text-left">
+					<input type="text" class="form-control input-lg text-left col-md-offset-1" placeholder="Email">
+				</div>
+				<div class="col-md-offset- col-md-4 ">
+					<input type="password" class="form-control input-lg text-left col-md-offset-1"placeholder="Senha">
+				</div>
+				<button type="submit" value="Entrar" class="btn btn-default btn-lg text-left col-md-offset-1 col-md-2">Entrar</button>
+			</form>
+		</div>
+	</div>
+	<div class="container footer" id="footer"><!--Footer-->
+		<div class="text-center form-group"><h1 class="white">Fale Conosco:</h1></div>
+		<div class="pull-right">
+			<a href="#top" id="top">
+				<i class="glyphicon glyphicon-chevron-up"></i>
+			</a>
+		</div>
+		<div class="row text-center">
+			<a href="#"><i class="fa fa-facebook-f " style="font-size:40px"></i></a>
+			<a href="#"><i class="fa fa-github " style="font-size:40px"></i></a>
+			<a href="#"><i class="fa fa-google-plus-circle" style="font-size:40px"></i></a>
+			<a href="#"><i class="fa fa-twitter-square" style="font-size:40px;colo"></i></a>
+		</div>
+		
+		<div class="col-md-12">
+			<p class="white"><small>Direitos Autorais Reservados </small>- <em>Jardriel Sousa</em></p>
+		</div>
+		
+
+</body>
+</html>

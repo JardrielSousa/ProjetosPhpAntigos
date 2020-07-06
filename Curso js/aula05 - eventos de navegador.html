@@ -1,0 +1,44 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Aula 05 - eventos de navegador</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			
+				/*	
+				$('img').error(function(){
+					$('img').attr("src","../img/img.png");
+				});
+				$('img').width($(window).width()).height($(window).height());//Redimenciona a img
+				$(window).resize(function(){//Ao mexer na tela redimenciona
+				$('img').width($(window).width()).height($(window).height());
+			});
+
+			});
+			$(window).scroll(function(){ //Ao rolar a barra some a img
+				$('img').fadeOut('1000');*/
+
+				/*$('body').css("height","5000px");
+				$(window).scroll(function(){
+					var topo = $(window).scrollTop();
+					alert(topo);
+				});*/
+				$('body').css("height","5000px");
+				$(window).scroll(function(){
+					var topo = $(window).scrollTop();
+					if(topo>100){
+						$('img').fadeOut('1000');
+					}else{
+						$('img').fadeIn('1000');
+					}
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+	<h1>Eventos de Navegador</h1>
+	<img src="../img/coruja.jpg">
+	</body>
+	</html>

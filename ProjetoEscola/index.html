@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>Projeto Tec na Escola</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/npm.js"></script>
+    <!--Meus Arquivos-->
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/escola.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+      
+     $(document).ready(function(){
+         $('.img').hide().fadeIn("slow");
+     });
+    </script>
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ProTec</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quem Somos ?</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Evolução dos Computadores</a></li>
+            <li><a href="#">História da Internet</a></li>
+            <li><a href="#">Linguagens e Tecnologias</a></li>
+            <li role="separator" class="divider"></li>
+            
+            <li role="separator" class="divider"></li>
+            <li><a href="#">WorkShops</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <div class="container">
+    <div class="row">
+        <div class="img text-center">
+          <div id="esc" class="col-md-offset-2 col-sm-offset-4 col-lg-offset-2 col-xs-offset-2 ">
+
+
+            <img src="img/esc.png" class="img-responsive">
+          </div>
+          <div id="tec" class="col-md-offset-2 col-sm-offset-4 col-lg-offset-2 col-xs-offset-3 img-responsive">
+
+            <img src="img/tec.png" >
+        </div>
+        </div>
+    </div>
+  </div>
+  <footer class="footer">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-offset-1 col-md-offset-1 col-xs-offset-">
+            <h1>Fale Conosco:</h1>
+          </div>
+      <!--col-lg-offset-3 col-md-offset-3 col-sm-offset-3-->
+        <div class="">
+            <div class="col-lg-offset-3 col-lg-3 col-md-offset-3 col-md-3 col-sm-offset-5 col-sm-5 col-xs-offset-3 col-xs-7">
+           <address>
+            <strong>Facebook:</strong><br>
+            <i class="fa fa-facebook-f " style="font-size:20px;color: grey;"></i>
+            <a href="mailto:#" class="btn">ProjetoEscola
+            </a>
+              </address>
+            </div>
+            <div class="col-lg-offset-2 col-md-4 col-sm-offset-5 col-sm-5 col-xs-offset-3 col-xs-7">
+             <address>
+                 <strong>Celular/Telefone:</strong><br>
+                      <abbr title="Phone">P:</abbr> (00) 000-0000
+              </address>
+         </div>
+           
+        </div>        
+                  
+          <div class="col-lg-offset-3 col-lg-10 col-md-offset-3 col-md-7 col-sm-offset-5 col-sm-5 col-xs-offset-3 col-xs-10">
+            <address>
+            <strong>Email:</strong><br>
+            <i class="fa fa-google-plus-circle" style="font-size:20px;color: grey;"></i>
+            <a href="mailto:#" class="btn">projetoescola@gmail.com</a>
+          </address> 
+          </div>
+         
+        <div class="pull-right">
+          <a href="#top">
+            <span class="glyphicon glyphicon-chevron-up" style="background: white;padding: 10px"></span>
+          </a>
+        </div>
+        </div>
+       </div> 
+        
+    </footer>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

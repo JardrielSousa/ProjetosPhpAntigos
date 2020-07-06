@@ -1,0 +1,23 @@
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:px) {
+	.icon{
+		background-image: url(img/icon.jpg);
+	}
+
+	}
+	@media (min-width: 200px) and (min-width: 567px) {
+		.img{
+			margin-left: 20%;
+		}
+	 }
+	
+	@media (min-width: 568px) and (min-width: 991px) {
+		.img{
+			margin-left: 30%;
+		}
+	 }
+	@media (min-width: 992px) and (min-width: 1500px) { 
+		.img{
+			margin-left: 35%;
+		}
+	}

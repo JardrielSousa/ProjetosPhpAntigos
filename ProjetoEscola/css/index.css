@@ -1,0 +1,81 @@
+img{
+	float: left;
+	text-align: center;
+	margin-top: 200px;
+	height: 200px;
+	width: 300px;
+	border-radius: 10px;
+}
+h1,h4{
+	color: #4F4F4F;
+}
+#tec{
+	
+	float: left;
+}
+
+footer{
+	background: #DEDEDE;
+	height: 500px;
+	width: 100%;
+	margin-top: 200px;
+}
+a{
+	color:grey;
+
+}
+a:hover{
+	color: #C2C2C2;
+}
+a .foot{
+	float: left;
+	margin-left: 250px;
+	margin-top: 10px;
+	padding-top:20px; 
+	color: #737373;
+
+}
+a .foot:hover{
+	color: #C2C2C2;
+}
+.face{
+	float: left;
+	margin-left: 150px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width:768px) {
+body{
+		height: 700px;
+	}
+	img{
+		width: 70%;
+	}
+	footer{
+	background: #DEDEDE;
+	height: 350px;
+	width: 100%;
+	margin-top: 350px;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+	body{
+		background: url(../img/olho.jpg) no-repeat;
+		width: 100%;
+	}
+	.center{
+		text-align: center;
+	}
+	.esq{
+		float: right;
+	}
+	footer{
+	background: #DEDEDE;
+	height: 350px;
+	width: 100%;
+	margin-top: 350px;
+}
+ }

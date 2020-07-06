@@ -1,0 +1,50 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Seletore e Eventos</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$('h1').css("color","red");
+				$('h1').hide();
+				$('h1').delay('1000');
+				$('h1').fadeIn("slow");		
+				$('h1').text("Curso de Jquery do Ponto Canal");
+				$('h1').click(function(){
+					$('body').css("background","black");
+					$('h1').css("color","white");
+
+				$('a').css({color:'white',display:'block'});
+				$('a').hide();
+				$('a').delay('1000');
+				$('a').fadeIn("slow");
+				});
+				
+
+
+
+				//$('h1').css("color","#f66").hide().delay('1000').fadeIn("slow").text("Curso de Jquery do Ponto Canal"); -- Em Linha
+
+
+				/*$('h1').
+				css("color","#f66")
+				.hide()
+				.delay('1000')
+				.fadeIn("slow")
+				.text("Curso de Jquery do Ponto Canal")
+				.click(function(){
+					$('body').css("background","black");
+				})*/
+
+			});
+		</script>
+	</head>
+	<body>
+	<h1>Aprendendo Jquery</h1>
+	<hr>
+		<a href="#">Teste</a>
+		<a href="#">Teste</a>
+		<a href="#">Teste</a>
+
+	</body>
+	</html>

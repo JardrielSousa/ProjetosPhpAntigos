@@ -1,0 +1,57 @@
+*{
+	font-family: "Monotype corsiva";
+	font-size: 20px;	
+}
+.icon{
+	background-image: url(img/icon.jpg);
+	width: 100px;
+	height: 50px;
+}
+body{
+	color:rgb(95, 41, 9, 0.712);
+}
+.slide{
+	height: 400px;
+	width: 100%;
+	margin-top: -20px;
+}
+.pull{
+	position: absolute;
+	right: 50px;
+
+ }
+
+h1{
+	color:rgb(95, 41, 9, 0.712);
+}
+.letra{
+	color: white;
+}
+.texto{
+    color:white;
+}
+.top1{
+	background-color: rgb(95, 41, 9, 0.712);
+}
+button{
+	color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Extra
+ small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width:769px) {
+	/*Apaga a Logo do Site */
+	.home{
+		display: none;
+	}
+	
+	
+	
+}
+

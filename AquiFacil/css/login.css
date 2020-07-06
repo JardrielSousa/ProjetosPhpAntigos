@@ -1,0 +1,28 @@
+*{
+   
+    font-family: Bradley Hand, cursive;
+    color: white;
+}
+
+.section{
+    margin-top: 70px;
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 250px;
+}
+.botoes{
+    margin: 10px;
+    width: 40%;
+    height: auto;
+    
+}
+.campos{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+    color: black;
+    
+    
+}

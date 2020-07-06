@@ -1,0 +1,19 @@
+.menu{
+	width: 100%;
+	color: white;
+	background: black;
+	width: 100%;
+	height: 50px;
+}
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.pis{
+	margin-top:100px;
+}
+.pa{
+	margin-top:5000px;
+}

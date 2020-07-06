@@ -1,0 +1,45 @@
+
+.rodape{
+    background-image: url()
+}
+.fala{
+    width: 100%;
+}
+img{
+    margin-top: 10px;
+}
+.icon{
+    width: 70px;
+    height:70px;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.texto{
+    color:white;
+    font-weight: bold;
+}
+a{
+       font-size: 25px;
+}
+a:hover{
+    color:pink;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+#rodape{
+	background-image: url('../img/roda.png');
+    background-repeat: no-rep;
+    width: 100%;
+    height:auto;
+    padding: 30px;
+    background-color: rgba(95, 41, 9, 0.712);
+	color: aliceblue;
+	margin-top: 1px;
+}
+.direitos{
+    text-align: center;
+    margin-top: 40px;
+}
